@@ -10,6 +10,14 @@ MesaFlash depends on the libpci-dev, to install it:
 
   sudo apt install libpci-dev
 
+You may need to install git first:
+
+  sudo apt install git
+
+Clone MesaFlash:
+
+  git clone https://github.com/jethornton/mesaflash.git
+
 From the top level directory, switch to the source directory:
 
   cd mesaflash
