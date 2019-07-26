@@ -1,6 +1,1 @@
-*.o
-libanyio*
 mesaflash
-mesaflash.exe
-pci_encoder_read
-pci_analog_write
