@@ -1,8 +1,7 @@
 language: c
 compiler: gcc
-before_script:
+script:
   - cd mesaflash
-  - ls
-script: make
+  - make
 before_install:
   - sudo apt-get install -y libpci-dev
