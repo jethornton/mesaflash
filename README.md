@@ -18,10 +18,16 @@ In the source directory to build MesaFlash:
 
   make
 
+To get command line syntax from a local make:
+  
+  ./mesaflash --help
+
 To build and install MesaFlash:
 
   sudo make install
 
-to get command line syntax:
-  
-  ./mesaflash --help
+To run an installed MesaFlash:
+
+  mesaflash --help
+
+
