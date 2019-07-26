@@ -2,7 +2,7 @@ language: c
 
 compiler: gcc
 
-dist: trusty
+dist: xenial
 
 env:
   - CFLAGS="-std=c99"
