@@ -1,7 +1,13 @@
 language: c
+
 compiler: gcc
+
+env:
+  - CFLAGS="-std=c99"
+
 script:
   - cd mesaflash
   - make
+
 before_install:
   - sudo apt-get install -y libpci-dev
