@@ -1,5 +1,6 @@
 # mesaflash
 MesaFlash II
+The current version of MesaFlash is this one.
 
 Configuration and diagnostic tool for Mesa Electronics PCI(E)/ETH/EPP/USB/SPI boards
 
