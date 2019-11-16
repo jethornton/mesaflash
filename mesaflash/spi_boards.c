@@ -87,7 +87,7 @@ static int spi_board_close(board_t *board) {
 }
 
 int spi_boards_init(board_access_t *access) {
-    settings.speed_hz = 8 * 1000 * 1000;
+    settings.speed_hz = 20 * 1000 * 1000;
     settings.bits_per_word = 32;
 
     sd = open(access->dev_addr, O_RDWR);
@@ -236,7 +236,7 @@ void spi_boards_scan(board_access_t *access) {
     }
 
     if(memcmp(buf, cookie, sizeof(cookie))) {
-        fprintf(stderr, "Unexpected cookie at %04x..%04x:\n%08x %08x %08x\n",
+        fprintf(stderr, "Unexpected cookie at %04x..%04lx:\n%08x %08x %08x\n",
             HM2_COOKIE_REG, HM2_COOKIE_REG + sizeof(buf),
             buf[0], buf[1], buf[2]);
         return;
