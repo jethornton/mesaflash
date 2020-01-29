@@ -1,2 +1,4 @@
 /mesaflash/mesaflash
-/mesaflash/pci*
+/mesaflash/pci_encoder_read
+/mesaflash/pci_analog_write
+*.[ao]
