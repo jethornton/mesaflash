@@ -1,0 +1,13 @@
+Source: mesaflash
+Section: embedded
+Priority: optional
+Maintainer: Jeff Epler <jepler@unpythonic.net>
+Build-Depends: debhelper, libpci-dev, libusb-1.0-0-dev
+Standards-Version: 4.1.3
+Homepage: https://github.com/jethornton/mesaflash
+Vcs-Git: https://github.com/jethornton/mesaflash
+
+Package: mesaflash
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}
+Description: Commandline program for flashing mesa and hostmot2 FPGA boards
